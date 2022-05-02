@@ -1,0 +1,35 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Iv1.30ed411d42c178de
+            client-secret: becf2d4a1677d257493ca8252bc94fffe0a8b5d3
+
+  data:
+    cassandra:
+      keyspace-name: main
+      username: llqzJxnGwxpBxOZgzdIZZbqI
+      password: OaZ5QBQSM6B4fxHYu3n8g+_z8M9qcs8Ru5tgJ4MuxSl5K9mPphZbT_GZ7KTnwkF3OA6ueJL2eWeAJ.K,Wv0rKj+ZkKyHv2lRm.ifX5o8e+-hdNMZ8lYMHDdG8MS73NLk
+      schema-action: recreate
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 15s
+
+#  thymleaf:
+#    cache: false
+
+astra:
+  db:
+    id: 67aece99-26f0-4c17-8d2e-596827d84ded-1
+    region: us-east1
+    keyspace: main
+    application:
+      token: AstraCS:llqzJxnGwxpBxOZgzdIZZbqI:d5653564c4973b6b36686d28dcb6d4d37103b3ce30dddbaaec2168868d0a8cbf
+
+datastax.astra:
+  secure-connect-bundle: secure-connect-inbox-app.zip
+
