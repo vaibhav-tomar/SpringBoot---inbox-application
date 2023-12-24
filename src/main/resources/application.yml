@@ -31,5 +31,5 @@ astra:
       token: AstraCS:llqzJxnGwxpBxOZgzdIZZbqI:d5653564c4973b6b36686d28dcb6d4d37103b3ce30dddbaaec2168868d0a8cbf
 
 datastax.astra:
-  secure-connect-bundle: secure-connect-inbox-app.zip
+  secure-connect-bundle: src/main/resources/secure-connect-inbox-app.zip
 
